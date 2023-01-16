@@ -15,7 +15,7 @@ body {
 #game {
     color: #000000;
     text-shadow: rgb(229 229 247) 0px 0px 1px, rgb(165 241 255) 0px 0px 10px, rgb(122 152 233) 0px 0px 4px, rgb(165 241 255) 0px 0px 8px, rgb(61 43 184) 0px 0px 12px;
-    margin: auto;
+    margin: 41px auto;
     font-size: 3.5rem;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
@@ -23,7 +23,7 @@ body {
 }
 #head {
   color: wheat;
-  margin: auto;
+  margin: 33px auto;
 }
 #restart {
   display: inline-block;
@@ -49,9 +49,8 @@ body {
 }
 
 .box {
-  /* border: 2px solid red; */
   display: flex;
-  margin: auto;
+  margin: 15px auto;
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
