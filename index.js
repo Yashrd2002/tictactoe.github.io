@@ -94,7 +94,7 @@ const restart=()=>{
     });
     text.innerText=`Play`;
     text.innerText=``;
-  },1500);
+  },1000);
 };
 restartBtn.addEventListener('click', restart);
 restart();
